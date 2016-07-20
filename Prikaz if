@@ -1,0 +1,36 @@
+/**
+ * @author kamil
+ *
+ */
+// Prikaz if.
+
+public class PrikazIF {
+	public static void main(String[] args) {
+		int a, b, c;
+		
+		a = 2;
+		b = 3;
+		
+		if(a < b) System.out.println("Premenna a je menšia ako b.");
+		if(a == b) System.out.println("Premenna a je rovna premennaej b."); // Nič sa nezobrazi
+		
+		System.out.println();
+		
+		c = a - b; // Premenna c obsahuje hodnotu -1
+		
+		System.out.println("Premenna c obsahuje hodnotu -1.");
+		if(c >= 0) System.out.println("Premenna c obsahuje nezápornu hodnotu.");
+		if(c < 0) System.out.println("Premenna c obsahuje zapornu hodnotu.");
+		
+		System.out.println();
+		
+		c = b - a; //Premenna c teraz obsahuje hodnotu 1
+		
+		System.out.println("Premenna c obsahuje hodnotu 1.");
+		if(c >= 0) System.out.println("Premenna c obsahuje nezapornu hodnotu.");
+		if(c < 0) System.out.println("Premenna c obsahuje zapornu hodnotu");
+		
+
+	}
+
+}
