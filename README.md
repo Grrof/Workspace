@@ -1,0 +1,2 @@
+# Workspace
+Moja začiatočnicka praca.
